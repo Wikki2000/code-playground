@@ -8,5 +8,5 @@ add_sibling_to_path("modules")
 from math_operations import addition
 
 result = addition(5, 3)
-print("The sum is:", result)
+print("The sum is:", result
 
