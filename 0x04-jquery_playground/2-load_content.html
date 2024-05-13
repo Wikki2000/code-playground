@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $('h1').load('2-content_to_load.txt');
+            })
+        });
+    </script>
+</head>
+<body>
+    <h1>This is me before</h1>
+
+    <button style="padding: 10px;
+    background-color: blue;
+    color: azure; border: none;
+    border-radius: 5px"
+    >
+    click to change
+</button>
+    <div>
+    </div>
+</body>
+</html>
