@@ -6,18 +6,20 @@
  * @param {string} dataType - The expected data type of the response (default is 'json').
  */
 $(document).ready(function() {
-    $.ajax({
-        url: '0-send_data.php',
-        dataType: 'json',
-        method: 'POST',
-        success: function(response) {
-            // Display an alert with user's name and age from the response
-            alert(`The value ${response.name} and I\'m ${response.age} years old`);
-        },
-        error: function(xhr, status, error) {
-            alert(`AJAX request failed: ${status}, ${error}`);
-        }
-    });
+    $('button').click(function (){
+        $.ajax({
+            url: '0-send_data.php',
+            dataType: 'json', //without specifying data type, it will flag error because by default it is expecting raw text
+            method: 'POST',
+            success: function(response) {
+                // Display an alert with user's name and age from the response
+                alert(`I\'m sending from ${response.name} using ${response.type} language`);
+            },
+            error: function(xhr, status, error) {
+                alert(`AJAX request failed: ${status}, ${error}`);
+            }
+        })
+    })
 });
 
 /**
