@@ -97,10 +97,9 @@ function insert_data($table, $attributes, $values, $con)
 	$stmt->bind_param(implode("", $bind_params), ...$values);
 
 	/* Execute the statement and handle error */
-	if ($stmt->execute()) {
+	if ($stmt->execute())
 		return true;
-	} else {
+	else
 		echo "Error inserting data: {$stmt->error}";
-	}
 }
 ?>

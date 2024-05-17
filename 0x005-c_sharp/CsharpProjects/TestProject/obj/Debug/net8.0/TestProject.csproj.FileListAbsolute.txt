@@ -1,0 +1,15 @@
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.exe
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.deps.json
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.dll
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.pdb
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.dll
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\refint\TestProject.dll
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.pdb
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+C:\xampp\htdocs\code-playground\0x005-c_sharp\CsharpProjects\TestProject\obj\Debug\net8.0\ref\TestProject.dll

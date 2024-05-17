@@ -1,0 +1,16 @@
+.form-control{
+    padding: 20px;
+}
+.container{
+    width: 50%;
+    background-color: lightblue;
+    margin-top: 50px;
+}
+.grp-btn{
+    margin-left: 20px;
+    display: flex;
+    justify-content: right;
+}
+.btn{
+    margin: 3px;
+}

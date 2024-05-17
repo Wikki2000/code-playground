@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                //You can only a new class when u remove the existing one
+                $("h1").removeClass("red");
+                $("h1").addClass("blue");
+            });
+        });
+    </script>
+
+    <style>
+        .blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="red">I am red now</h1>
+    <p>To change me to blue, click the button to add a blue class to it</p>
+    <button>Add class</button>
+</body>
+</html>
