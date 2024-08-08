@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function ajaxRequest(url, method, data = {}, onSuccess, onError) {
+            $.ajax({
+                url: url,
+                method: method,
+                contentType: 'application/json',
+                data: method !== 'GET' ? JSON.stringify(data) : undefined,
+                success: onSuccess,
+                error: onError
+            });
+        }
+
+        $(document).ready(function() {
+            $('#getButton').click(function() {
+                ajaxRequest('/api/data', 'GET', {}, 
+                    function(response) {
+                        $('#response').text('GET Response: ' + response.message);
+                    },
+                    function(error) {
+                        $('#response').text('Error: ' + error.statusText);
+                    }
+                );
+            });
+
+            $('#postButton').click(function() {
+                const postData = { key: 'value' };
+                ajaxRequest('/api/data', 'POST', postData, 
+                    function(response) {
+                        $('#response').text('POST Response: ' + JSON.stringify(response));
+                    },
+                    function(error) {
+                        $('#response').text('Error: ' + error.statusText);
+                    }
+                );
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>AJAX Example</h1>
+    <button id="getButton">Send GET Request</button>
+    <button id="postButton">Send POST Request</button>
+    <div id="response"></div>
+</body>
+</html>
+
