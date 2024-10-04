@@ -17,7 +17,3 @@ function ajaxRequest(url, method, data = {}, onSuccess, onError) {
     error: onError
   });
 }
-
-
-// Usage: Example
-
