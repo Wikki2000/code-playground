@@ -1,8 +1,5 @@
-response = [
-  { body: 'Photo' }, // from uploadPhoto()
-  { firstName: 'John', lastName: 'Doe' } // from createUser()
-];
+response = ['item1', 'item2'];
 
-const [photo, user] = response;
-console.log(photo);
-console.log(user);
+const [item1, item2] = response;
+console.log('First item unpack:', item1);
+console.log('second item unpack:',item2);
