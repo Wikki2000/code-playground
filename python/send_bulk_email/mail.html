@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #007bff;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .button-container a {
+            text-decoration: none;
+            background-color: #25d366;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            color: #555555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header Section -->
+        <div class="header">
+		<!--<img src="LOGO_PLACEHOLDER_URL" alt="Gofamist Logo">-->
+            <h1>Gofamint Corpers Fellowship</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+	    <h2>Dear {{ name }},</h2>
+            <p>
+                We are excited to inform you that the first cohort of the Skill Acquisition program for Gofamint Corpers Fellowship will officially begin on:
+            </p>
+            <h3 style="text-align: center; color: #007bff;">10: 00 a.m, Saturday, 24th November 2024</h3>
+            <p>
+                Please mark your calendar and come prepared to learn and grow! This is a fantastic opportunity to enhance your skills and prepare for a successful future.
+            </p>
+            <p>
+                For any further questions or details, feel free to contact us and join our WhatsApp group using the button below.
+            </p>
+        </div>
+
+        <!-- Button Section -->
+        <div class="button-container">
+            <a href="https://chat.whatsapp.com/FSuLhdPffWx4wNSZXk1zWh">Join WhatsApp Group</a>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>&copy; 2024 Gofamint Corpers Fellowship. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+
